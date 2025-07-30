@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { useUser } from "@/app/page"
+import { useUser } from "@/contexts/UserContext"
 import { CreditCard, CheckSquare, Users, Gift, Lock, TrendingUp, DollarSign, Activity } from "lucide-react"
 
 export function Dashboard() {

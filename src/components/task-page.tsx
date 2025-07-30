@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { useUser } from "@/app/page"
+import { useUser } from "@/contexts/UserContext"
 import { CheckSquare, Clock, DollarSign, Edit, Trash2, Plus, Lock, ExternalLink } from "lucide-react"
 
 interface Task {
